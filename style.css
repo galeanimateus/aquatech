@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 80px;
+}
+
+.logo {
+  color: #01a1a1; 
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+nav ul li a {
+  color: #dfad18; 
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  pointer-events: all;
+}
+
+.hr_li{
+    background-color: #dfad18;
+    border-color: #dfad18;
+}
+
+hr{
+    background-color: #01a1a1;
+    border-color: #01a1a1;
+    padding: 1px;
+}
+
+#sec_banner {
+  background-image: url('assets/jelly-fish-home.png');
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.banner_p {
+  color: white;
+  font-size: 28px;
+  line-height: 1.5;
+  padding-left: 400px;
+}
+
+.banner_strong {
+  color: white;
+  font-weight: 900;
+}
+
+#sec_cards {
+  background-color: rgb(234, 230, 230);
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px 40px;
+}
+
+.card {
+  text-align: center;
+  max-width: 200px;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #cc2277;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #444;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#div_login1 {
+
+  background-image: url(assets/jelly-fish-login.png);
+  height: 744px;
+  width: 1521px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_cadastro1 {
+
+  background-image: url(assets/jelly-fish-login.png);
+  height: 744px;
+  width: 1521px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_login2 {
+  background-color: rgb(234, 230, 230);
+  height: 35%;
+  width: 40%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#div_cadastro2 {
+  background-color: rgb(234, 230, 230);
+  height: 61%;
+  width: 40%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+h2 {
+
+  color: #db6fa5;
+  font-family: Helvetica;
+
+}
+
+#div_login2 p {
+
+  font-size: small;
+  color: #db6fa5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#div_cadastro2 p {
+
+  font-size: small;
+  color: #db6fa5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+input {
+
+  width: 500px;
+  height: 35px;
+  border-radius: 10px;
+  border-color: #4ecae0;
+  border-width: 2px;
+  text-align: center;
+  border-style: solid;
+
+}
+
+button {
+
+  background-color: #d72955;
+  height: 30px;
+  width: 120px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+footer {
+  background-color: #4ecae0;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
+}

@@ -1,2 +1,0 @@
-# aquatech
-Atividade Aquatech
